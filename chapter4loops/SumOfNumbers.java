@@ -9,8 +9,12 @@ public class SumOfNumbers {
         double num = scanner.nextDouble();
         double sum = 0;
         int i = 1;
+        int usrNum = 0;
+        System.out.println("Enter numbers you want to sum up");
         while (i<=num){
-            sum = sum + i;
+            usrNum = scanner.nextInt();
+//            sum = sum + i;
+            sum = sum+usrNum;
             i++;
         }
         System.out.println(sum);
